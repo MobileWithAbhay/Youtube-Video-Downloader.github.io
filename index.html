@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="from">
+          <h1>Youtube Video Downloader</h1>
+          <input type="text" class="link" placeholder="Video Link" />
+        <select class="format" required="">   <option disabled="" selected="">Select Video Formate</option>          
+      <option value="mp3">Mp3</option>
+      <option value="m4a">144p</option>   
+      <option value="360">360p</option>
+      <option value="480">480p</option>
+      <option value="720">720p</option>
+      <option value="1080">1080p</option>
+      <option value="4k">4k</option>
+      <option value="8k">8k</option>
+      </select>
+      <button class="btn" onclick="download()">Start</button><br/><br/>
+    
+      <div class="result1"></div>
+      <div class="result2"></div>
+    </div>
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>
